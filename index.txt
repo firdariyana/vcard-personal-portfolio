@@ -2,23 +2,24 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Firda Riyana
+Firda Riyana
+Administrasi Publik | Multitalenta
 
 Show Contacts
 
 Email
-richard@example.com
+firdariyana@email.com
 
 Phone
-+1 (213) 352-2795
++62 812-3456-7890
 
 Birthday
-June 23, 1982
+20 Agustus 2006
 
 Location
-Sacramento, California, USA
+Lampung, Indonesia
+
 
 # navbar
 
@@ -28,63 +29,56 @@ Portfolio
 Blog
 Contact
 
+
 # about
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+Halo! Saya Firda Riyana, mahasiswa/lulusan Administrasi Publik yang memiliki karakter multitalenta, mudah beradaptasi, dan cepat mempelajari hal-hal baru. Saya tertarik pada bidang tata kelola administrasi, pelayanan publik, serta pengembangan keterampilan di berbagai bidang produktif.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+Selain mendalami ilmu administrasi, saya juga memiliki pengalaman sebagai pengajar les privat maupun kelompok. Pengalaman ini melatih saya untuk berkomunikasi secara efektif, sabar dalam membimbing, serta mampu menjelaskan materi atau informasi yang kompleks menjadi lebih sederhana dan mudah dipahami.
 
 
 ## service
 
 What i'm doing
 
-alt = design icon
-Web design
-The most modern and high-quality design made at a professional level.
+alt = administration icon
+Administrasi & Tata Kelola
+Mengelola dokumen, pengarsipan, dan penyusunan administrasi secara rapi, teliti, serta terstruktur.
 
-alt = Web development icon
-Web development
-High-quality development of sites at the professional level.
+alt = tutor icon
+Pengajar Les (Tutor)
+Membimbing siswa belajar secara sabar dan interaktif sesuai dengan kebutuhan serta gaya belajar masing-masing.
 
-alt = mobile app icon
-Mobile apps
-Professional development of applications for iOS and Android.
+alt = communication icon
+Komunikasi & Pelayanan Publik
+Membangun komunikasi yang baik, ramah, dan solutif dalam melayani maupun bekerja sama di dalam tim.
 
-alt = camera icon
-Photography
-I make high-quality photos of any category at a professional level.
+alt = multitasking icon
+Manajemen Tugas & Adaptasi Cepat
+Terbiasa mengerjakan berbagai tugas sekaligus secara efisien serta cepat menguasai keterampilan dan teknologi baru.
 
 
 ## testimonials
 
 Testimonials
 
-alt = Daniel lewis
-Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Jessica miller
-Jessica miller
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Emily evans
-Emily evans
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Henry william
-Henry william
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Orang Tua Siswa
+Ibu Windi
+Firda sangat sabar dan telaten saat mengajar les anak saya. Penjelasannya mudah dipahami sehingga nilai sekolah anak saya meningkat pesat dalam waktu singkat.
 
 
-## clients
+alt = Orang Tua Siswa
+Ibu yani
+Cara mengajar Firda sangat menyenangkan dan disiplin. Anak saya jadi lebih semangat belajar dan tidak mudah bosan saat sesi bimbingan berlangsung, dan anak saya sekarang lebih mudah memahami pelajaran yang diberikan baik di sekolah, di rumah maupun di tempat les.
 
-Clients
+Ibu latinah
+Cucu saya menunjukan perubahan yang cukup signifikan baik di kesopanan ataupun dalam hal belajar.
 
-alt = client logo
-
+alt = Rekan Tim KKN
+Fina Bafingatul Mardiyah 
+Sosok yang multitalenta dan cepat belajar hal baru. Setiap kali diberikan tanggung jawab baru, Firda selalu mampu menyelesaikannya dengan hasil yang rapi.
 
 
 # resume
@@ -93,43 +87,34 @@ Resume
 
 Education
 
-University school of the arts
-2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Universitas Dharma Wacana 
+2022 — Sekarang
+Program Studi Administrasi Publik. Mempelajari tata kelola pemerintahan, kebijakan publik, manajemen organisasi, dan pelayanan masyarakat.
 
-New york academy of art
-2006 — 2007
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
-
-High school of art and design
-2002 — 2004
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+SMA NEGERI 1 PUNGGUR 
+2020 — 2022
+Tergabung dalam kelas belajar cepat ( akselerasi) dan menyelesaikan studi dalam 2 tahun. 
 
 Experience
 
-Creative director
-2015 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
+Pemenang lomba Karya Tulis Ilmiah Tingkat SMA 
+2021
+Terbiasa berfikir secara kreatif dan inovatif.
 
-Art director
-2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
-
-Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Pengajar Les Privat & Bimbingan Belajar
+2023 — Sekarang
+Membimbing siswa dalam memahami materi pelajaran, membantu persiapan ujian, serta menyusun metode belajar yang efektif dan mudah dipahami.
 
 My skills
 
-Web design
-80%
-Graphic design
-70%
-Branding
+Administrasi & Pengarsipan
+85%
+Komunikasi & Mengajar (Tutoring)
 90%
-WordPress
-50%
-
+Adaptasi & Cepat Belajar
+95%
+Microsoft Office & Manajemen Data
+75%
 
 
 # portfolio
@@ -137,94 +122,62 @@ WordPress
 Portfolio
 
 All
-Web design
-Applications
-Web development
+Administrasi
+Mengajar
+Kegiatan
 
 Select category
 All
-Web design
-Applications
-Web development
+Administrasi
+Mengajar
+Kegiatan
 
-alt = finance
-Finance
-Web development
+alt = bimbingan belajar
+Bimbingan Belajar Privat
+Mengajar
 
-alt = orizon
-Orizon
-Web development
+alt = tata kelola arsip
+Penyusunan Dokumen & Arsip
+Administrasi
 
-alt = fundo
-Fundo
-Web design
+alt = kegiatan kampus
+Kepanitiaan & Organisasi
+Kegiatan
 
-alt = brawlhalla
-Brawlhalla
-Applications
+alt = modul belajar
+Pembuatan Ringkasan Materi Belajar
+Mengajar
 
-alt = dsm.
-DSM.
-Web design
+alt = laporan administrasi
+Penyusunan Laporan Administrasi
+Administrasi
 
-alt = metaspark
-MetaSpark
-Web design
-
-alt = summary
-Summary
-Web development
-
-alt = task manager
-Task Manager
-Applications
-
-alt = arrival
-Arrival
-Web development
-
+alt = pelatihan publik
+Program Pelayanan Masyarakat
+Kegiatan
 
 
 # blog
 
 Blog
 
-alt = Design conferences in 2022
-Design
-Fab 23, 2022
-Design conferences in 2022
-Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+alt = Tips Belajar Efektif
+Edukasi
+10 Nov 2026
+Cara Membuat Suasana Belajar Les Lebih Menyenangkan
+Berbagi pengalaman dan metode sederhana agar siswa lebih fokus dan tidak mudah bosan saat belajar.
 
-alt = Best fonts every designer
-Design
-Fab 23, 2022
-Best fonts every designer
-Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+alt = Pentingnya Administrasi Rapi
+Administrasi
+25 Okt 2026
+Peran Penting Tata Kelola Administrasi dalam Pelayanan Publik
+Mengulas bagaimana sistem administrasi yang tertata dapat mempercepat dan mempermudah pelayanan.
 
-alt = Design digest #80
-Design
-Fab 23, 2022
-Design digest #80
-Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-
-alt = UI interactions of the week
-Design
-Fab 23, 2022
-UI interactions of the week
-Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-
-alt = The forgotten art of spacing
-Design
-Fab 23, 2022
-The Forgotten Art Of Spacing
-Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-alt = Design digest #79
-Design
-Fab 23, 2022
-Design Digest #79
-Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-
+alt = Beradaptasi di Lingkungan Baru
+Pengembangan Diri
+12 Okt 2026
+Tips Cepat Beradaptasi dan Menguasai Keterampilan Baru
+Langkah praktis untuk tetap percaya diri dan cepat belajar saat menghadapi tantangan atau lingkungan baru.
 
 
 # contact
@@ -233,8 +186,7 @@ Contact
 
 Contact Form
 
-Full name
-Email address
-Your Message
+Full name Firda riyana
+Email address firdariyana69@gmail.com
 
-Send Message
+Send Message +62 857-6472-3806
