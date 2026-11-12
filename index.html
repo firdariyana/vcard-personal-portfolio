@@ -1,368 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Portofolio Firda Riyana</title>
+  <style>
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #fbf6fa; color: #333;
+    }
+    /* Header & Navigasi */
+    header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 15px 20px; background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      position: sticky; top: 0; z-index: 100;
+    }
+    .logo { font-size: 20px; font-weight: bold; color: #8a2be2; }
+    nav a {
+      text-decoration: none; color: #333; margin: 0 6px;
+      font-size: 13px; font-weight: 600;
+    }
+    .btn-hubungi {
+      background-color: #8a2be2; color: white; padding: 8px 14px;
+      border-radius: 20px; text-decoration: none; font-size: 13px; font-weight: bold;
+    }
+    /* Bagian Utama */
+    section { padding: 45px 25px; max-width: 650px; margin: auto; }
+    .hero h1 { font-size: 34px; line-height: 1.2; color: #8a2be2; margin-bottom: 15px; }
+    .hero h1 span { color: #d63384; }
+    .hero p { font-size: 16px; line-height: 1.6; color: #555; margin-bottom: 25px; }
+    .btn-karya {
+      display: inline-block; background-color: #8a2be2; color: white;
+      padding: 12px 24px; border-radius: 25px; text-decoration: none;
+      font-weight: bold; margin-bottom: 35px;
+    }
+    .foto-container { text-align: center; }
+    .foto-profil {
+      width: 240px; height: 240px; object-fit: cover;
+      border-radius: 50%; border: 6px solid #e0c3fc;
+    }
+    /* Judul Bagian */
+    h2 { color: #8a2be2; font-size: 26px; margin-bottom: 15px; text-align: center; }
+    /* Kotak Kartu (Tentang, Skill, Karya) */
+    .card {
+      background: white; padding: 20px; border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 15px;
+    }
+    .card h3 { margin-top: 0; color: #8a2be2; }
+    .skill-list { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .skill-tag {
+      background: #f3e5f5; color: #8a2be2; padding: 8px 16px;
+      border-radius: 20px; font-weight: bold; font-size: 14px;
+    }
+    footer {
+      text-align: center; padding: 25px; background: #8a2be2; color: white; margin-top: 30px;
+    }
+    footer a { color: #ffe082; text-decoration: none; font-weight: bold; }
+  </style>
 </head>
-
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
-
-          <p class="title">Web developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">June 23, 1982</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Sacramento, California, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
-          </p>
-
-          <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+  <header>
+    <div class="logo">Firda.</div>
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#skill">Skill</a>
+      <a href="#karya">Karya</a>
+    </nav>
+    <a href="#kontak" class="btn-hubungi">Hubungi Saya</a>
+  </header>
+
+  <section class="hero">
+    <h1>Halo, Saya <span>Firda Riyana</span><br>Creative, Educator & Multitalenta</h1>
+    <p>Halo! Saya Firda Riyana dari Lampung, mahasiswa Administrasi Publik yang suka bikin desain, mengajar les, dan cepat beradaptasi dengan hal baru. Ini adalah tempat saya menampilkan karya dan pengalaman terbaik saya.</p>
+    <a href="#karya" class="btn-karya">Lihat Karya Saya</a>
+    <div class="foto-container">
+      <img src="foto.jpg" alt="Foto Profil Firda Riyana" class="foto-profil">
+    </div>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang Saya</h2>
+    <div class="card">
+      <p>Saya adalah individu dengan latar belakang <b>Administrasi Publik</b> yang memiliki ketertarikan tinggi pada dunia kreatif, edukasi, dan pengelolaan administrasi. Saya dikenal sebagai pribadi yang <b>mudah beradaptasi, cepat belajar, dan senang berkembang</b> di berbagai bidang.</p>
+      <p>Selain aktif berkarya membuat desain visual, saya juga rutin membagikan ilmu dengan <b>mengajar les privat di rumah</b>, melatih kemampuan komunikasi serta kesabaran saya dalam membimbing siswa.</p>
+    </div>
+  </section>
+
+  <section id="skill">
+    <h2>Skill & Keahlian</h2>
+    <div class="skill-list">
+      <span class="skill-tag">Desain Grafis & Visual</span>
+      <span class="skill-tag">Administrasi & Manajemen</span>
+      <span class="skill-tag">Pengajar Les / Tutor</span>
+      <span class="skill-tag">Komunikasi Publik</span>
+      <span class="skill-tag">Cepat Beradaptasi</span>
+      <span class="skill-tag">Microsoft Office & Dokumen</span>
+    </div>
+  </section>
+
+  <section id="karya">
+    <h2>Karya & Pengalaman</h2>
+    <div class="card">
+      <h3>1. Desain Grafis & Konten Kreatif</h3>
+      <p>Membuat berbagai kebutuhan desain visual seperti poster, materi edukasi, dan konten media sosial yang menarik serta komunikatif.</p>
+    </div>
+    <div class="card">
+      <h3>2. Tutor Les Privat Rumahan</h3>
+      <p>Membimbing siswa belajar secara personal di rumah dengan metode penyampaian yang sabar, interaktif, dan mudah dipahami.</p>
+    </div>
+    <div class="card">
+      <h3>3. Pengelolaan Administrasi & Organisasi</h3>
+      <p>Terbiasa menyusun dokumen, surat-menyurat, serta manajemen data secara rapi dan terstruktur sesuai ilmu Administrasi Publik.</p>
+    </div>
+  </section>
+
+  <footer id="kontak">
+    <p>Ingin diskusi, pesan desain, atau tanya jadwal les? Hubungi Firda lewat:</p>
+    <p><a href="https://wa.me">WhatsApp</a> | <a href="https://instagram.com">Instagram</a></p>
+  </footer>
+
+</body>
+</html>
+lt="Emily evans" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
